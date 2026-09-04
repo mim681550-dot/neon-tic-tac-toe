@@ -332,6 +332,50 @@ difficultyEl.onchange=()=>{if(!gameOver)messageEl.innerHTML='⚙ <strong>Difficu
 
 loadScores();
 modeEl.dispatchEvent(new Event('change'));
-</script>
+</script> 
+
+<footer class="site-footer">
+  <div class="footer-links">
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms & Conditions</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <p>© 2026 Neon Tic-Tac-Toe. All rights reserved.</p>
+</footer>
+
+<style>
+.site-footer {
+  text-align: center;
+  padding: 25px 10px 35px;
+  margin-top: 25px;
+  color: #8c87ad;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  color: #16dfff;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.site-footer p {
+  margin-top: 15px;
+  font-size: 14px;
+}
+</style>
+
 </body>
 </html>
